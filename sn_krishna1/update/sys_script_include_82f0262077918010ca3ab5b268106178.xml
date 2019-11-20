@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_krishna1.demo2</api_name>
+        <caller_access/>
+        <claim/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>demo2</name>
+        <script><![CDATA[var demo2 = Class.create();
+demo2.prototype = {
+    initialize: function() {
+    },
+
+    type: 'demo2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 15:17:15</sys_created_on>
+        <sys_id>82f0262077918010ca3ab5b268106178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo2</sys_name>
+        <sys_package display_value="krishna1" source="sn_krishna1">a0302eec77518010ca3ab5b2681061bd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="krishna1">a0302eec77518010ca3ab5b2681061bd</sys_scope>
+        <sys_update_name>sys_script_include_82f0262077918010ca3ab5b268106178</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 15:17:15</sys_updated_on>
+    </sys_script_include>
+</record_update>
