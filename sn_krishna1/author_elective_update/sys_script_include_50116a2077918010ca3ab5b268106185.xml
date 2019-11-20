@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_krishna1.wed</api_name>
+        <caller_access/>
+        <claim/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>wed</name>
+        <script><![CDATA[var wed = Class.create();
+wed.prototype = {
+    initialize: function() {
+    },
+
+    type: 'wed'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 15:17:41</sys_created_on>
+        <sys_id>50116a2077918010ca3ab5b268106185</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>wed</sys_name>
+        <sys_package display_value="krishna1" source="sn_krishna1">a0302eec77518010ca3ab5b2681061bd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="krishna1">a0302eec77518010ca3ab5b2681061bd</sys_scope>
+        <sys_update_name>sys_script_include_50116a2077918010ca3ab5b268106185</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 15:18:02</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="krishna1">a0302eec77518010ca3ab5b2681061bd</application>
+        <file_path/>
+        <instance_id>evosandbox8080</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_script_include_50116a2077918010ca3ab5b268106185</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;sn_krishna1.wed&lt;/api_name&gt;&lt;caller_access/&gt;&lt;claim/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;wed&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var wed = Class.create();
+wed.prototype = {
+    initialize: function() {
+    },
+
+    type: 'wed'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-20 15:17:41&lt;/sys_created_on&gt;&lt;sys_id&gt;50116a2077918010ca3ab5b268106185&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;wed&lt;/sys_name&gt;&lt;sys_package display_value="krishna1" source="sn_krishna1"&gt;a0302eec77518010ca3ab5b2681061bd&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="krishna1"&gt;a0302eec77518010ca3ab5b2681061bd&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_50116a2077918010ca3ab5b268106185&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-20 15:18:02&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>305810375</payload_hash>
+        <record_name>wed</record_name>
+        <reverted_from/>
+        <source>5d80a22077918010ca3ab5b26810616f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 15:18:03</sys_created_on>
+        <sys_id>a221aa2077918010ca3ab5b268106129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8964500e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 15:18:03</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>ea21aa201791801047db0d7d1aaa9028</update_guid>
+        <update_guid_history>ea21aa201791801047db0d7d1aaa9028:305810375,1111aa2026918010c0d85623f62da115:-802911917</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <claim/>
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 15:22:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0b966f314e414340bd11433b4d7fdd64</sys_id>
+        <sys_metadata>50116a2077918010ca3ab5b268106185</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wed</sys_name>
+        <sys_package display_value="krishna1" source="sn_krishna1">a0302eec77518010ca3ab5b2681061bd</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="krishna1">a0302eec77518010ca3ab5b2681061bd</sys_scope>
+        <sys_scope_delete display_value="">0390d314672b4880801c765e684c4000</sys_scope_delete>
+        <sys_update_name>sys_script_include_50116a2077918010ca3ab5b268106185</sys_update_name>
+        <sys_update_version display_value="sys_script_include_50116a2077918010ca3ab5b268106185">a221aa2077918010ca3ab5b268106129</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-20 15:22:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
